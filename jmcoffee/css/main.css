@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/*
+ * File    : main.css
+ * Author  : STUDIO-JT (HREE)
+ *
+ * SUMMARY :
+ * LAYOUT
+ * VISUAL
+ * ABOUT US
+ * TRADE
+ * PRODUCT
+ * CONSULTING
+ */
+
+ 
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+/* LAYOUT */
+.main-section { padding: 130rem 0; }
+.main-section__head { text-align: center; pointer-events: none; }
+.main-section__head a { display: inline-block; }
+.main-section__desc { margin-top: 32rem; }
+.main-section__btn { text-align: center; margin-top: 60rem; }
+.main-section__video { width: 100%; height: 100%; opacity: 0; transition: opacity .3s; }
+.main-section__video.video-active { opacity: 1; }
+.main-section__video video { width: 100%; height: 100%; }
+html.mobile .main-section__head { pointer-events: inherit; }
+html.mobile .main-section__link { pointer-events: none; }
+
+#intro { width: 100%; height: 100vh; background: var(--color-white); position: fixed; top: 0; left: 0; z-index: 1000; }
+
+
+/* **************************************** *
+ * VISUAL
+ * **************************************** */
+.main-visual { width: 100%; height: 100lvh; position: relative; }
+.main-visual__content { position: relative; width: 100%; height: 100svh; pointer-events: none; }
+.main-visual__content .wrap { position: absolute; top: 50%; left: 50%; translate: -50% -50%; margin: 0; }
+.main-visual__content h2 { white-space: nowrap; text-align: center; }
+.main-visual__content h3 { margin-top: 44rem; text-align: center; }
+.main-visual__content p { margin-top: 12rem; text-align: center; }
+
+.main-visual .article__bg { height: 100svh; }
+.main-visual .article__bg--dark { height: 100lvh; }
+.main-visual__bg { width: 100%; height: 100lvh; position: fixed; }
+.main-visual__bg > * { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.main-visual__bg--dark { opacity: 0; visibility: hidden; background: var(--color-black); }
+
+
+
+/* **************************************** *
+ * ABOUT US
+ * **************************************** */
+.main-aboutus { padding-top: 186rem; }
+.main-aboutus__list { display: grid; grid-template-columns: repeat(4, 1fr); gap: 120rem; margin-top: 200rem; justify-content: center; }
+.main-aboutus__list-item { width: 100%; max-width: 210rem; text-align: center; margin: 0 auto; }
+.main-aboutus__list-item-figure { padding-bottom: 40rem; }
+.main-aboutus__list-item-figure figure { padding-top: 100%; }
+.main-aboutus__list-item-title { position: relative; transition: border-color .3s; display: inline; border-bottom: 2rem solid transparent; }
+.main-aboutus__list-item-title:after { content: ''; display: block; width: 100%; height: 1rem; position: absolute; left: 0; bottom: -2rem; background: var(--color-white); -webkit-transform-origin: 100% 50%; -ms-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform: scale3d(0, 1, 1); transform: scale3d(0, 1, 1); -webkit-transition: -webkit-transform .8s cubic-bezier(.19, 1, .22, 1); transition: -webkit-transform .8s cubic-bezier(.19, 1, .22, 1); transition: transform .8s cubic-bezier(.19, 1, .22, 1); }
+.main-aboutus__list-item-title .jt-icon { width: 16rem; height: 16rem; margin-left: 8rem; transform: translateY(1rem); }
+
+
+
+/* **************************************** *
+ * TRADE
+ * **************************************** */
+.main-trade { padding: 236rem 0 198rem; overflow: hidden; }
+.main-trade__inner { position: relative; display: block; width: 970rem; height: 970rem; margin: 0 auto; }
+.main-trade .main-section__head { position: absolute; width: 100%; top: 50%; left: 50%; translate: -50% -50%; z-index: 1; }
+.main-trade .main-section__body { position: absolute; width: 100%; height: 100%; top: 50%; left: 50%; translate: -50% -50%; }
+.main-trade .main-section__video video { opacity: 0.8; }
+
+
+
+/* **************************************** *
+ * PRODUCT
+ * **************************************** */
+.main-product { padding-bottom: 99rem; }
+.main-product .main-section__head { pointer-events: inherit; }
+.main-product__inner { width: 710rem; height: 710rem; margin: 0 auto; }
+.main-product__inner > a { padding-top: 48rem; display: block; }
+.main-product__inner .jt-lazyload { padding-top: 100%; }
+
+
+
+/* **************************************** *
+ * CONSULTING
+ * **************************************** */
+.main-consulting { padding: 99rem 0 0rem; overflow: hidden; margin-bottom: -150rem; }
+.main-consulting__inner { position: relative; display: block; width: 1100rem; height: 1100rem; margin: 0 auto; }
+.main-consulting .main-section__head { position: absolute; width: 100%; top: 50%; left: 50%; translate: -50% -50%; z-index: 1; }
+.main-consulting .main-section__body { position: absolute; width: 100%; height: 100%; top: 50%; left: 50%; translate: -50% -50%; }
+.main-consulting .main-section__body .main-section__link { display: block; height: 90%; }
+.main-consulting .main-section__video { position: absolute; top: 0; left: 0; pointer-events: none; }
+.main-consulting .main-section__video video { opacity: 0.9; }
+
+
+
+/* **************************************** *
+ * HOVER
+ * **************************************** */
+@media (hover: hover) and (pointer: fine) {
+
+    /* ABOUT US */
+    .main-aboutus__list-item a:hover .main-aboutus__list-item-title:after { -webkit-transform-origin: 0% 50%; -ms-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1); }
+
+}

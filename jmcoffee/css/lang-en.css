@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/*
+ * File    : lang-en.css
+ * Author  : STUDIO-JT (HREE)
+ *
+ * SUMMARY :
+ * LAYOUT
+ * BUSINESS
+ * INQUIRE
+ * RWD
+ */
+
+
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+/* VAR */
+:root {
+    --font-lineheight-ko-04: 44rem;
+    --font-lineheight-ko-06: 28rem;
+    --font-lineheight-ko-07: 26rem;
+}
+
+
+
+/* **************************************** *
+ * BUSINESS
+ * **************************************** */
+html[lang="en-US"] .manufacturing__process-view-item:nth-child(8) .manufacturing__process-view-label:nth-of-type(1) { left: 20%; }
+html[lang="en-US"] .manufacturing__process-view-item:nth-child(8) .manufacturing__process-view-label:nth-of-type(2) { left: 43%; }
+html[lang="en-US"] .manufacturing__process-view-item:nth-child(8) .manufacturing__process-view-label:nth-of-type(3) { left: 53.6%; }
+html[lang="en-US"] .manufacturing__process-view-item:nth-child(8) .manufacturing__process-view-label:nth-of-type(4) { left: 83.5%; }
+html[lang="en-US"] .manufacturing__process-view-item:nth-child(10) .manufacturing__process-view-label:nth-of-type(3) { left: 46%; }
+html[lang="en-US"] .manufacturing__process-view-item:nth-child(10) .manufacturing__process-view-label:nth-of-type(5) { left: 72.2%; }
+
+
+
+/* **************************************** *
+ * INQUIRE
+ * **************************************** */
+html[lang="en-US"] .jt-form__label span { font-family: var(--font-secondary); font-weight: 500; }
+html[lang="en-US"] .jt-agreement__title { font-family: var(--font-secondary); font-weight: 500; }
+html[lang="en-US"] .jt-form__action[type=submit] { font-family: var(--font-secondary); }
+
+
+
+/* **************************************** *
+ * RWD
+ * **************************************** */
+@media (max-width: 1480px){
+
+    /* VAR */
+    :root {
+        --font-lineheight-ko-04: 42rem;
+        --font-lineheight-ko-06: 27rem;
+    }
+
+    /* MAIN */
+    html[lang="en-US"] .main-trade .main-section__head { margin-top: 8rem; }
+
+}
+
+
+
+@media (max-width: 1200px){
+
+    /* VAR */
+    :root {
+        --font-lineheight-ko-04: 36rem;
+    }
+
+    /* ABOUT US */
+    html[lang="en-US"] .aboutus-history__year-list-desc li::before { top: calc(1em - 5rem); }
+
+}
+
+
+
+@media (max-width: 1023px){
+
+    /* VAR */
+    :root {
+        --font-lineheight-ko-04: 34rem;
+        --font-lineheight-ko-06: 28rem;
+    }
+
+}
+
+
+
+@media (max-width: 860px){
+
+    /* VAR */
+    :root {
+        --font-lineheight-ko-04: 36rem;
+        --font-lineheight-ko-06: 24rem;
+    }
+
+    /* CONSULTING */
+    html[lang="en-US"] .consulting-frc__desc p { padding: 0 70rem; }
+    html[lang="en-US"] .consulting-frc__desc p br { display: none; }
+
+}
+
+
+
+@media (max-width: 540px){
+
+    /* VAR */
+    :root {
+        --font-lineheight-ko-04: 32rem;
+        --font-lineheight-ko-06: 28rem;
+        --font-lineheight-ko-07: 24rem;
+    }
+
+    /* ABOUT US */
+    html[lang="en-US"] .aboutus-history__year-list-desc li::before { top: calc(1em - 6rem); }
+
+    /* CONSULTING */
+    html[lang="en-US"] .consulting-frc__desc p { padding: 0; }
+
+}

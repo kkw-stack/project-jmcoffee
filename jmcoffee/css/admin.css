@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*
+ * File    : admin.css
+ * Author  : STUDIO-JT (KMS)
+ *
+ * SUMMARY :
+ * CLEAN UP NOTICE
+ */
+
+
+
+/* **************************************** *
+ * CLEAN UP NOTICE
+ * **************************************** */
+#footer-upgrade,
+#footer-thankyou { display: none; }
+
+
+
+/* **************************************** *
+ * ACF TAB
+ * **************************************** */
+.acf-fields > .acf-tab-wrap .acf-tab-group {
+    margin : 0 auto !important;
+}

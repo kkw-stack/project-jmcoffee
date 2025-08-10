@@ -1,0 +1,958 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-27 10:04+0900\n"
+"PO-Revision-Date: 2024-10-28 09:25+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: 404.php:23
+msgid "404 ERROR"
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"죄송합니다. 페이지를 찾을 수 없습니다. <br />존재하지 않는 주소를 입력하셨거나, <br />요청하신 페이지의 주소가 변경, 삭제되어 찾을 수 없"
+"습니다."
+msgstr ""
+"Sorry, the page could not be found. <br />You have entered an address that does not exist or the address on the requested <br />page "
+"has been changed and deleted and cannot be found."
+
+#: 404.php:27
+msgid "Go to home"
+msgstr ""
+
+#: footer.php:17
+msgid "MORE"
+msgstr ""
+
+#: functions.php:158
+msgid "메인메뉴"
+msgstr ""
+
+#: header.php:22 index.php:135 index.php:162 index.php:190
+msgid "Highlight"
+msgstr ""
+
+#: header.php:54
+msgid "Youtube"
+msgstr ""
+
+#: header.php:61
+msgid "Instagram"
+msgstr ""
+
+#: header.php:67 modules/coffee_beans/single.php:101 sub/coffee-beans-single.php:141
+msgid "JM mall"
+msgstr ""
+
+#: header.php:80
+msgid "Privacy Policy"
+msgstr ""
+
+#: index.php:46
+msgid "Blend ideas"
+msgstr ""
+
+#: index.php:47
+msgid "Brew solution"
+msgstr ""
+
+#: index.php:65
+msgid "Growing in <br class=\"smbr\" />every <br />direction"
+msgstr ""
+
+#: index.php:68
+msgid ""
+"JMCOFFEE는 물류, 컨설팅, 제조, 연구, 브랜드 등 다양한 분야에서 <br />\n"
+"                    혁신의 길을 걸으며 지속적으로 성장하고 있습니다. <br />\n"
+"                    전문성과 창의성을 바탕으로 새로운 기준을 세우고, 업계의 변화를 선도합니다."
+msgstr ""
+"JMCOFFEE continues to grow along the path of innovation in various fields <br />\n"
+"such as logistics, consulting, manufacturing, research, and branding. <br />\n"
+"Based on our expertise and creativity, we set new standards and lead changes in the industry."
+
+#: index.php:84 sub/artinus.php:17 sub/highlight.php:20 sub/trade.php:221
+msgid "ARTINUS"
+msgstr ""
+
+#: index.php:95 sub/highlight.php:164 sub/manufacturing.php:56
+msgid "Manufacturing"
+msgstr ""
+
+#: index.php:106 sub/consulting.php:58 sub/highlight.php:175
+msgid "Consulting"
+msgstr ""
+
+#: index.php:117
+msgid "JM Mall"
+msgstr ""
+
+#: index.php:128
+msgid "Global network <br />beyond coffee"
+msgstr ""
+
+#: index.php:131
+msgid "전문 설비와 효율적인 프로세스를 통해 세계 각지의 <br />우수한 원두를 직접 수입하여 최고의 품질과 고객 만족을 선사합니다."
+msgstr ""
+"We provide the best quality and customer satisfaction <br />by directly importing excellent coffee beans from around the world <br /"
+">and through professional facilities and efficient processes."
+
+#: index.php:154
+msgid "Powered <br class=\"smbr\" />by <br />integrated <br class=\"smbr\" />solutions"
+msgstr ""
+
+#: index.php:157
+msgid ""
+"전문 생산 설비를 이용하여 생산성, 품질, 고객만족도를 향상시키는 <br />커피 플랜트를 구현하며 안정적인 생산과 제조를 위한 솔루션을 제공합"
+"니다."
+msgstr ""
+"We provide solutions for stable production and manufacturing <br />by implementing a coffee plant that improves productivity, quality, "
+"and customer satisfaction <br />using professional production facilities."
+
+#: index.php:183
+msgid "Balanced and perfect <br />process"
+msgstr ""
+
+#: index.php:186
+msgid "JMCOFFEE의 커피 시장에 대한 안목으로 <br />모든 순간의 경험을 확실하게 전달합니다."
+msgstr "JMCOFFEE insight into the coffee market ensures <br />that the experience of every moment is delivered certainty."
+
+#: functions/login.php:83
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr ""
+
+#: functions/sns.php:47
+msgid "카카오톡 공유하기"
+msgstr ""
+
+#: functions/sns.php:51
+msgid "페이스북 공유하기"
+msgstr ""
+
+#: functions/sns.php:55
+msgid "트위터 공유하기"
+msgstr ""
+
+#: functions/sns.php:59
+msgid "핀터레스트 공유하기"
+msgstr ""
+
+#: functions/sns.php:62
+msgid "URL이 복사되었습니다."
+msgstr ""
+
+#: functions/sns.php:63
+msgid "URL 복사하기"
+msgstr ""
+
+#: modules/artinus/list.php:52 modules/coffee_beans/list.php:52 sub/about-us.php:281 sub/brand.php:116 sub/brand.php:180
+msgid "이전"
+msgstr "prev"
+
+#: modules/artinus/list.php:59 modules/coffee_beans/list.php:59 sub/about-us.php:288 sub/brand.php:123 sub/brand.php:187
+msgid "다음"
+msgstr "next"
+
+#: modules/artinus/list.php:66 modules/artinus/list.php:75 modules/coffee_beans/list.php:66 modules/coffee_beans/list.php:75
+msgid "All Products"
+msgstr ""
+
+#: modules/artinus/single.php:78 sub/artinus-single.php:76
+msgid "Core technology"
+msgstr ""
+
+#: modules/artinus/single.php:87 modules/coffee_beans/single.php:84 sub/artinus-single.php:95 sub/coffee-beans-single.php:127
+msgid "Find out more"
+msgstr ""
+
+#: modules/artinus/single.php:103 sub/artinus-single.php:115
+msgid "Contact us"
+msgstr ""
+
+#: modules/artinus/single.php:107 modules/coffee_beans/single.php:107 modules/jt-module-template/single.php:62 sub/artinus-single.php:119
+#: sub/coffee-beans-single.php:147
+msgid "Go to list"
+msgstr ""
+
+#: modules/coffee_beans/single.php:57 sub/coffee-beans-single.php:66
+msgid "Cupping note"
+msgstr ""
+
+#: modules/faqs/list.php:22
+msgid "아코디언 토글"
+msgstr ""
+
+#: modules/faqs/list.php:40 modules/jt-module-template/list.php:31 modules/news/list.php:63
+msgid "일치하는 게시물이 없습니다."
+msgstr ""
+
+#: modules/faqs/list.php:42 modules/jt-module-template/list.php:32 modules/news/list.php:65
+#, php-format
+msgid "<span>&ldquo;%s&rdquo;</span>에 대한 검색결과가 없습니다."
+msgstr ""
+
+#: modules/faqs/list.php:45 modules/jt-module-template/last.php:31 modules/jt-module-template/list.php:34 modules/news/list.php:68
+msgid "컨텐츠 준비중 입니다."
+msgstr "Content is currently being prepared."
+
+#: modules/faqs/list.php:46 modules/jt-module-template/last.php:32 modules/jt-module-template/list.php:35 modules/news/list.php:69
+msgid "현재 컨텐츠를 준비하고 있으니 조금만 기다려 주세요. <br />더욱 나은 모습으로 찾아뵙겠습니다."
+msgstr "Please stay tuned for updates. <br />We will be back with a better experience soon."
+
+#: modules/jt-module-template/attachments.php:4
+msgid "첨부파일"
+msgstr ""
+
+#: modules/jt-module-template/category.php:3
+msgid "All"
+msgstr ""
+
+#: modules/jt-module-template/search.php:5
+msgid "검색어를 입력해주세요."
+msgstr ""
+
+#: modules/jt-module-template/search.php:9
+msgid "검색"
+msgstr ""
+
+#: modules/jt-module-template/search.php:14
+msgid "검색어 지우기"
+msgstr ""
+
+#: modules/jt-module-template/single.php:48
+msgid "이전 글이 없습니다."
+msgstr ""
+
+#: modules/jt-module-template/single.php:57
+msgid "다음 글이 없습니다."
+msgstr ""
+
+#: sub/about-us.php:19
+msgid "About us"
+msgstr ""
+
+#: sub/about-us.php:68
+msgid "Start of Specialty"
+msgstr ""
+
+#: sub/about-us.php:71
+msgid "JMCOFFEE는 글로벌 커피 컴퍼니를 향해 카페 브랜드를 넘어선 <br />커피 전문 기업으로 도약합니다."
+msgstr ""
+"JMCOFFEE is leaping forward <br class=\"smbr\" />to become <br />a global coffee company <br class=\"smbr\" />that goes beyond a cafe "
+"brand."
+
+#: sub/about-us.php:99
+msgid ""
+"JMCOFFEE는 새로운 커피문화와 수년간 축적된 <br />경험의 조합으로 우리만의 기술을 개인과 기업 모두에게 <br />닿을 수 있도록 나아갑니다."
+msgstr ""
+"JMCOFFEE is advancing our unique technology <br />to reach both individuals and companies through a combination <br />of new coffee "
+"culture and years of accumulated experience."
+
+#: sub/about-us.php:102
+msgid ""
+"JMCOFFEE는 25년간 성장하여 국내 최고의 <br />테이크아웃커피 브랜드인 컴포즈커피를 포함 국내 커피 역사를 <br />이끌어가며 퀄리티와 헤리티"
+"지에 자부심을 가진 <br />브랜드로 자리매김했습니다."
+msgstr ""
+"JMCOFFEE has grown for 25 years and has <br />established itself as a brand that takes pride in its quality and heritage, <br />leading "
+"the history of domestic coffee, including Compose Coffee, <br />Korea’s best take-out coffee brand."
+
+#: sub/about-us.php:112
+msgid "브랜드 비전"
+msgstr "Brand vision"
+
+#: sub/about-us.php:114
+msgid "Passion to pride"
+msgstr ""
+
+#: sub/about-us.php:119
+msgid "고객에게 제공하는 가치"
+msgstr "Value provided to customers"
+
+#: sub/about-us.php:121
+msgid "Specialty for all <br />Specialty for everyone"
+msgstr ""
+
+#: sub/about-us.php:126
+msgid "브랜드 미션"
+msgstr "Brand mission"
+
+#: sub/about-us.php:128
+msgid "Seed to cup"
+msgstr ""
+
+#: sub/about-us.php:140
+msgid "JM’s objective"
+msgstr ""
+
+#: sub/about-us.php:143
+msgid ""
+"JMCOFFEE는 모든 사람이 다양한 환경에서 훌륭한 커피 문화를 즐길 수 있도록 그 어느 때보다 집중하고 있습니다. <br />Q-grader & 수석 로스터"
+"와 Q-grader & 총괄 Q.C 까지 <br />다양한 전문가들이 함께하는 곳에서 더 많은 경험을 통해 커피의 진정한 맛을 발견합니다."
+msgstr ""
+"JMCOFFEE is more focused than ever on ensuring that everyone can enjoy <br />great coffee culture in a variety of environments. <br /"
+">Discover the true taste of coffee through more experiences at a place <br />where various experts such as Q Grader & Chief Roaster, Q "
+"Grader & General Q.C."
+
+#: sub/about-us.php:150
+msgid "Import"
+msgstr ""
+
+#: sub/about-us.php:151
+msgid "NEW CROP 생두 소싱"
+msgstr "NEW CROP green coffee bean sourcing"
+
+#: sub/about-us.php:169
+msgid "Profile"
+msgstr ""
+
+#: sub/about-us.php:170
+msgid "산지를 고려한 프로파일 개발"
+msgstr "Profile development considering production area"
+
+#: sub/about-us.php:188
+msgid "R&D"
+msgstr ""
+
+#: sub/about-us.php:189
+msgid "연구 개발"
+msgstr "Research and Development"
+
+#: sub/about-us.php:207
+msgid "Roasting Q.C"
+msgstr ""
+
+#: sub/about-us.php:208
+msgid "생산 설비의 효율성과 생두의 품질 유지"
+msgstr "Maintaining the efficiency of production facilities and the quality of green coffee beans"
+
+#: sub/about-us.php:226
+msgid "OEM/ODM"
+msgstr ""
+
+#: sub/about-us.php:227
+msgid "대량 생산"
+msgstr "Mass production"
+
+#: sub/about-us.php:245
+msgid "Distribution"
+msgstr ""
+
+#: sub/about-us.php:246
+msgid "WMS를 기반으로 운영"
+msgstr "Operating based on WMS"
+
+#: sub/about-us.php:295 sub/brand.php:130 sub/brand.php:194
+msgid "Pause"
+msgstr ""
+
+#: sub/about-us.php:300 sub/brand.php:135 sub/brand.php:199
+msgid "Play"
+msgstr ""
+
+#: sub/about-us.php:313
+msgid "JM’s beginning"
+msgstr ""
+
+#: sub/about-us.php:316
+msgid "스페셜티 커피 문화를 펼치기 위한 JMCOFFEE의 첫걸음은 1999년부터 시작되었습니다."
+msgstr "JMCOFFEE's first step to spread specialty coffee culture began in 1999."
+
+#: sub/about-us.php:353
+msgid "History more"
+msgstr ""
+
+#: sub/brand.php:58 sub/highlight.php:186
+msgid "Brand"
+msgstr ""
+
+#: sub/brand.php:59
+msgid "체계적으로, 더 멀리 있는 곳까지"
+msgstr "Systematically, To a place further away"
+
+#: sub/brand.php:84
+msgid "JMCOFFEE ROASTERS"
+msgstr ""
+
+#: sub/brand.php:86
+msgid ""
+"제이엠의 노하우와 헤리티지가 담긴 공간으로써, 다양한 원두 라인업으로 새로운 커피를 경험하고 <br />로스팅과 추출 과정을 직접 확인할 수 있"
+"는 복합 커피 공간입니다."
+msgstr ""
+"As a space containing JM's know-how and heritage, <br />it is a complex coffee space where you can experience new coffees <br />with a "
+"diverse lineup of coffee beans and directly check the roasting and extraction process."
+
+#: sub/brand.php:91 sub/brand.php:155
+msgid "Go to site"
+msgstr ""
+
+#: sub/brand.php:148
+msgid "COMPOSE COFFEE"
+msgstr ""
+
+#: sub/brand.php:150
+msgid ""
+"검증된 파트너사와의 협업으로 양질의 B2B시장을 개척하고 지속적인 협력과 <br />트렌드에 맞춘 상품 출시로 고객, 점주, 파트너사 모두 상생하"
+"는 국민브랜드입니다."
+msgstr ""
+"It is a popular brand where customers, store owners, and partners can all coexist <br />by pioneering a high-quality B2B market through "
+"continuous collaboration with proven partners <br />and launching products tailored to trends."
+
+#: sub/coffee-beans-single.php:77
+msgid "Chocolate"
+msgstr ""
+
+#: sub/coffee-beans-single.php:83
+msgid "Nuts"
+msgstr ""
+
+#: sub/coffee-beans-single.php:89
+msgid "Caramel"
+msgstr ""
+
+#: sub/coffee-beans-single.php:95
+msgid "Body"
+msgstr ""
+
+#: sub/coffee-beans-single.php:101
+msgid "Flowers"
+msgstr ""
+
+#: sub/coffee-beans-single.php:107
+msgid "Berry fruit"
+msgstr ""
+
+#: sub/coffee-beans-single.php:113
+msgid "Citrus fruit"
+msgstr ""
+
+#: sub/coffee-beans-single.php:119
+msgid "Sweet fruit"
+msgstr ""
+
+#: sub/coffee-beans.php:17 sub/highlight.php:85
+msgid "COFFEE BEANS"
+msgstr ""
+
+#: sub/trade.php:59
+msgid "커피를 넘어 세계와 연결되는 글로벌 네트워크"
+msgstr "A global network that goes beyond coffee and connects to the world"
+
+#: sub/consulting.php:47
+msgid "비즈니스도 일상도 특별한 순간으로"
+msgstr "Turn business and daily life into special moments"
+
+#: sub/consulting.php:84
+msgid "Cafe operation system"
+msgstr ""
+
+#: sub/consulting.php:86
+msgid "기획부터 완성까지 고객의 니즈에 맞는 카페통합운영시스템으로 성장합니다."
+msgstr "We grow into an integrated cafe operating system <br />that meets customer needs from planning to completion."
+
+#: sub/consulting.php:93 sub/trade.php:93
+msgid "Step. 1"
+msgstr ""
+
+#: sub/consulting.php:94
+msgid "Counseling"
+msgstr ""
+
+#: sub/consulting.php:95
+msgid "고객의 니즈와 커피의 본질에 집중하는 제안과 <br />공간을 설계합니다."
+msgstr "We design proposals and spaces that focus on our customers' needs and the essence of coffee."
+
+#: sub/consulting.php:108 sub/trade.php:108
+msgid "Step. 2"
+msgstr ""
+
+#: sub/consulting.php:109
+msgid "Preference"
+msgstr ""
+
+#: sub/consulting.php:110
+msgid "경제적이고 효율적인 카페 장비의 선택을 위한 <br />컨설팅을 진행합니다."
+msgstr "We provide consulting for the selection of economical and efficient cafe equipment."
+
+#: sub/consulting.php:123 sub/trade.php:123
+msgid "Step. 3"
+msgstr ""
+
+#: sub/consulting.php:124
+msgid "My own coffee"
+msgstr ""
+
+#: sub/consulting.php:125
+msgid "소량생산에서 대량생산(OEM, ODM)으로 <br />브랜드화할 수 있는 메뉴판을 구성합니다."
+msgstr "We create menus that can be branded from small quantity production to mass production (OEM, ODM)."
+
+#: sub/consulting.php:138 sub/trade.php:138
+msgid "Step. 4"
+msgstr ""
+
+#: sub/consulting.php:139
+msgid "Efficient bar"
+msgstr ""
+
+#: sub/consulting.php:140
+msgid "당신만의 ‘아뜰리에’를 갖춘 창의적인 디자인을 <br />제시합니다."
+msgstr "We present creative designs with your own ‘atelier’."
+
+#: sub/consulting.php:153
+msgid "Step. 5"
+msgstr ""
+
+#: sub/consulting.php:154
+msgid "Partners"
+msgstr ""
+
+#: sub/consulting.php:155
+msgid "협업 과정을 통해 파트너와 함께 <br />동반 성장합니다."
+msgstr "We grow together with our partners through a collaborative process."
+
+#: sub/consulting.php:168
+msgid "Step. 6"
+msgstr ""
+
+#: sub/consulting.php:169
+msgid "Maintenance"
+msgstr ""
+
+#: sub/consulting.php:170
+msgid "고객의 프로젝트에 오너십을 가지고 진정성 있게 <br />접근하여 지속적으로 유지·관리합니다."
+msgstr "We approach our customers' projects sincerely with a sense of ownership and continuously maintain and manage them."
+
+#: sub/consulting.php:204
+msgid "FRC system"
+msgstr ""
+
+#: sub/consulting.php:207
+msgid ""
+"원두커피 정기구독 시 전자동 커피머신 렌탈서비스와 커피 관련 장비에 특화된 <br />엔지니어팀이 무상 A/S서비스, 추출량 점검, 청소 관리, 정"
+"기 점검 등의 토탈 케어 서비스를 제공합니다."
+msgstr ""
+"When you subscribe to coffee beans, we provide fully automatic coffee machine rental service <br />and total care service including "
+"free after-sales service, extraction quantity inspection, cleaning management, <br />and regular inspection by an engineer team "
+"specializing in coffee-related equipment."
+
+#: sub/consulting.php:208
+msgid "문의 1899-0820"
+msgstr "Contact us 1899-0820"
+
+#: sub/consulting.php:212
+msgid "FRC <strong>신청하기</strong>"
+msgstr "Contact for FRC"
+
+#: sub/highlight.php:61 sub/highlight.php:133
+msgid "VIEW MORE"
+msgstr ""
+
+#: sub/highlight.php:66 sub/highlight.php:138
+msgid "PREV"
+msgstr ""
+
+#: sub/highlight.php:71 sub/highlight.php:143
+msgid "NEXT"
+msgstr ""
+
+#: sub/highlight.php:79 sub/highlight.php:151
+msgid "Go to List"
+msgstr ""
+
+#: sub/highlight.php:165
+msgid "안정적인 생산을 보장하며 차별화된 품질을 <br />보장하기 위해 전자동화 시스템으로 스마트한 플랜트 <br />구현하는 것을 목표로합니다."
+msgstr "We aim to implement a smart factory with a fully automated system to ensure stable production and differentiated quality."
+
+#: sub/highlight.php:176
+msgid "파트너의 목표를 위해 무한한 가능성을 탐구하며 <br />기획부터 완성까지 파트너의 관점에서 완성도 높은 <br />솔루션을 제공합니다."
+msgstr ""
+"We explore infinite possibilities for our partners' goals and provide high-quality solutions from our partners' perspectives from "
+"planning to completion."
+
+#: sub/highlight.php:187
+msgid ""
+"검증된 파트너사와 협업해 다양한 스페셜티 <br />커피 경험을 제공하며 모두가 상생하는 B2B 시장을 <br />JMCOFFEE만의 노하우로 개척합니다."
+msgstr ""
+"We provide a variety of specialty coffee experiences by collaborating with proven partners and pioneer the B2B market where everyone "
+"can coexist with JMCOFFEE's unique know-how."
+
+#: sub/highlight.php:197
+msgid "Contact"
+msgstr ""
+
+#: sub/highlight.php:198
+msgid "커피 사업에 대해 문의사항을 남겨주세요. <br />다양한 분야의 전문가들이 모든 단계에서 깊이 있고 <br />정확한 정보를 제공해드립니다."
+msgstr ""
+"Please leave any inquiries regarding the coffee business.\n"
+"Experts in various fields provide in-depth and accurate information at every step."
+
+#: sub/inquire.php:29
+msgid "새로운 커피문화를 주도하고, <br />현재 진행중인 사업(현재)과 앞으로 확장할 <br />사업(미래)을 균형있게 발전시킵니다."
+msgstr ""
+"It is to lead a new coffee culture and <br />develop both the business currently in <br />progress (current) and the business to be "
+"<br />expanded (future) in a balanced way."
+
+#: sub/inquire.php:33
+msgid "Chat to us"
+msgstr ""
+
+#: sub/inquire.php:37
+msgid "Call us"
+msgstr ""
+
+#: sub/inquire.php:38
+msgid "1899-0820"
+msgstr ""
+
+#: sub/inquire.php:41
+msgid "Hours"
+msgstr ""
+
+#: sub/inquire.php:43
+msgid "<span>월요일-금요일</span> 10:00-17:00 <br /><span>토요일, 일요일, 공휴일</span> OFF"
+msgstr "<span>Mon-Fri</span> 10:00-17:00 <br /><span>Sat-Sun, Holidays</span> Closed"
+
+#: sub/inquire.php:56
+msgid "이름"
+msgstr "Name"
+
+#: sub/inquire.php:58
+msgid "이름을 입력해 주세요."
+msgstr "Enter your name."
+
+#: sub/inquire.php:65
+msgid "이메일"
+msgstr "E-mail"
+
+#: sub/inquire.php:67
+msgid "이메일을 입력해 주세요."
+msgstr "Enter your e-mail."
+
+#: sub/inquire.php:67
+msgid "정확한 형식의 이메일을 기재해 주세요."
+msgstr "Please enter a valid email address."
+
+#: sub/inquire.php:74
+msgid "전화번호"
+msgstr "Phone"
+
+#: sub/inquire.php:76
+msgid "전화번호를 입력해 주세요."
+msgstr "Enter your phone number."
+
+#: sub/inquire.php:76
+msgid "정확한 형식의 전화번호를 기재해 주세요."
+msgstr "Please enter your contact details correctly."
+
+#: sub/inquire.php:83
+msgid "회사명"
+msgstr "Organization"
+
+#: sub/inquire.php:85
+msgid "회사명을 입력해 주세요."
+msgstr "Enter your organization name."
+
+#: sub/inquire.php:91
+msgid "내용"
+msgstr "Message"
+
+#: sub/inquire.php:85
+msgid "내용을 입력해 주세요."
+msgstr "Tell us more about the details."
+
+#: sub/inquire.php:102
+msgid "문의유형"
+msgstr "Inquiry type"
+
+#: sub/inquire.php:118
+msgid "개인정보 수집 및 이용에 대한 안내"
+msgstr "Personal Information Collection and Usage Notice"
+
+#: sub/inquire.php:123
+msgid "개인정보의 수집 및 이용목적"
+msgstr "Purpose of collection and use of personal information"
+
+#: sub/inquire.php:124
+msgid "당사는 고객 문의사항에 대한 답변을 드리기 위한 목적으로 귀하의 개인정보를 수집·이용합니다."
+msgstr "We collect and use your personal information for the purpose of responding to customer inquiries."
+
+#: sub/inquire.php:128
+msgid "수집하는 개인정보의 항목"
+msgstr "Items of personal information collected"
+
+#: sub/inquire.php:129
+msgid "이름, 이메일주소, 전화번호, 회사명, 내용"
+msgstr "Name, email address, mobile phone number, company name, content"
+
+#: sub/inquire.php:133
+msgid "수집한 개인정보의 보유 및 이용기간"
+msgstr "Possession and use period of collected personal information"
+
+#: sub/inquire.php:134
+msgid ""
+"당사는 개인정보 수집 및 이용에 관한 동의 후 3년간 보유하고 이후 해당 정보를 지체없이 파기합니다. <br />단, 관계법령의 규정에 의하여 보존"
+"할 필요가 있는 경우 회사는 관계법령이 정한 일정한 기간동안 개인정보를 보관합니다."
+msgstr ""
+"After consent to the collection and use of personal information, we retain it for 3 years and destroy such information without delay. "
+"However, if there is a need to preserve personal information in accordance with the provisions of relevant laws and regulations, the "
+"company stores personal information for a certain period of time specified in relevant laws and regulations."
+
+#: sub/inquire.php:142
+msgid "동의합니다."
+msgstr "I agree to this."
+
+#: sub/inquire.php:149
+msgid "문의하기"
+msgstr "Submit"
+
+#: sub/manufacturing.php:57
+msgid "정교한 기술력으로 완성되는 한 잔"
+msgstr "A cup of coffee made with delicate techniques"
+
+#: sub/manufacturing.php:82
+msgid ""
+"최첨단 시스템으로 정확성과 안정성을 유지하며, <br />깊이 있는 전문가들의 정밀하고 체계적인 과정을 거쳐 <br />최상의 품질을 만들어냅니다."
+msgstr ""
+"We maintain stability and accuracy with <br />a state-of-the-art system, and make the best quality through <br />a precise and "
+"systematic process by in-depth experts."
+
+#: sub/manufacturing.php:93
+msgid ""
+"스마트팩토리는 이탈리아 IMA 그룹 페트로치니 사업부와의 <br />협업을 통해 안정적으로 생산하고 공급망 유지를 위한 로봇인케이싱을 도입하였"
+"습니다."
+msgstr ""
+"Smart Factory adopted robot incasing to maintain stable production <br />and supply chain through collaboration with IMA Group "
+"Petrocini division in Italy."
+
+#: sub/manufacturing.php:97
+msgid "NEW CROP 입고 시 다양한 등급의 생두를 <br />컵 테스팅 및 선별과정을 통해 출시합니다."
+msgstr "When NEW CROP is received, various grades of green <br />coffee beans are released through cup testing and selection process."
+
+#: sub/manufacturing.php:112
+msgid "Q-Grader Trainer"
+msgstr ""
+
+#: sub/manufacturing.php:113
+msgid "큐그레이더"
+msgstr ""
+
+#: sub/manufacturing.php:127
+msgid "Quality Control"
+msgstr ""
+
+#: sub/manufacturing.php:128
+msgid "퀄리티컨트롤QC"
+msgstr ""
+
+#: sub/manufacturing.php:142
+msgid "Trainer"
+msgstr ""
+
+#: sub/manufacturing.php:143
+msgid "트레이너"
+msgstr ""
+
+#: sub/manufacturing.php:157
+msgid "Cupper"
+msgstr ""
+
+#: sub/manufacturing.php:158
+msgid "커퍼"
+msgstr ""
+
+#: sub/manufacturing.php:172
+msgid "Roaster"
+msgstr ""
+
+#: sub/manufacturing.php:173
+msgid "로스터"
+msgstr ""
+
+#: sub/manufacturing.php:187
+msgid "Barista"
+msgstr ""
+
+#: sub/manufacturing.php:188
+msgid "바리스타"
+msgstr ""
+
+#: sub/manufacturing.php:205
+msgid "Plant design process"
+msgstr ""
+
+#: sub/manufacturing.php:250
+msgid "Probat P60"
+msgstr ""
+
+#: sub/manufacturing.php:251
+msgid "120kg 열풍식"
+msgstr "120kg hot air roasting system"
+
+#: sub/manufacturing.php:262
+msgid "Probat Neptune 500"
+msgstr ""
+
+#: sub/manufacturing.php:273
+msgid "IMA TTA 120"
+msgstr ""
+
+#: sub/manufacturing.php:288
+msgid "IMA TTA 240"
+msgstr ""
+
+#: sub/manufacturing.php:337
+msgid "Packing Machine"
+msgstr ""
+
+#: sub/manufacturing.php:338
+msgid "Italy ICA / IMA TECMAR"
+msgstr ""
+
+#: sub/manufacturing.php:487
+msgid "Full-automation <br />system"
+msgstr ""
+
+#: sub/manufacturing.php:488
+msgid "전자동화 시스템과 <br />스마트한 플랜트 구현 목표"
+msgstr "Goal of implementing fully automated system and smart plant"
+
+#: sub/manufacturing.php:501
+msgid "500t"
+msgstr ""
+
+#: sub/manufacturing.php:502
+msgid "월 약 500t 제조 생산 설비 기획"
+msgstr ""
+"About 500t per month\n"
+"Manufacturing production equipment plan"
+
+#: sub/manufacturing.php:515
+msgid "Auto-control <br />implementation"
+msgstr ""
+
+#: sub/manufacturing.php:516
+msgid "설비, 배관, 밸브, 계기 등 공정상의 <br />세부요소 P&ID의 자동제어구현"
+msgstr ""
+"Implementation of automatic <br />control of P&ID of detailed <br />process elements such as <br />equipment, piping, valves, and <br /"
+">instruments"
+
+#: sub/trade.php:58
+msgid "International trade"
+msgstr ""
+
+#: sub/trade.php:84
+msgid "Global green bean <br />sourcing"
+msgstr ""
+
+#: sub/trade.php:86
+msgid "자체적인 물류 관리를 통해 안정적인 공급망을 구축합니다. <br />아프리카 및 중남미 중심으로 엄선된 NEW CROP 생두 수입 및 제공합니다."
+msgstr ""
+"We build a stable supply chain through our own logistics management. <br />We import and provide carefully selected NEW CROP green "
+"coffee beans mainly <br />from Africa and Central and South America."
+
+#: sub/trade.php:94
+msgid "Research"
+msgstr ""
+
+#: sub/trade.php:95
+msgid ""
+"고품질 생두의 생산량을 극대화하기 위해 <br />각 지역의 기후와 토양 조건, 농업 방식 등에 대한 <br />데이터를 체계적으로 수집하고 분석합니"
+"다."
+msgstr ""
+"We systematically collect and analyze data on climate, soil conditions, and agricultural practices in each region to maximize "
+"production of high-quality green coffee beans."
+
+#: sub/trade.php:109
+msgid "Test"
+msgstr ""
+
+#: sub/trade.php:110
+msgid ""
+"Q-Grader가 생두의 맛, 향, 산미 등 다양한 <br />품질 요소를 평가해 고품질 커피 원두를 선별하고 <br />커피의 일관된 품질을 유지할 수 있습"
+"니다."
+msgstr ""
+"Q-Grader evaluates various quality factors such as taste, aroma, and acidity of green coffee beans to select high-quality coffee beans "
+"and maintain consistent quality of coffee."
+
+#: sub/trade.php:124
+msgid "Contract"
+msgstr ""
+
+#: sub/trade.php:125
+msgid ""
+"생두의 산지 농장과 직접 공급 계약을 체결해 품질을 <br />철저히 관리하고, 직수입을 진행해 중간 유통 단계를 줄여 <br />신선한 생두를 더 빠"
+"르게 확보해 공급합니다."
+msgstr ""
+"We strictly manage the quality of green coffee beans by signing supply contracts directly with farms in the green bean production area, "
+"and conduct direct imports to reduce intermediate distribution stages to secure and supply fresh green coffee beans more quickly."
+
+#: sub/trade.php:139
+msgid "Trade"
+msgstr ""
+
+#: sub/trade.php:140
+msgid "운송된 생두는 검역을 거쳐 품질이 확인됩니다. <br />검역이 완료되면 통관 절차를 밟아 최종적으로 수입되어 <br />공급됩니다."
+msgstr ""
+"The transported green coffee beans are inspected to confirm their quality, and once the inspection is completed, they go through "
+"customs clearance procedures and are finally imported and supplied."
+
+#: sub/trade.php:166
+msgid "Machine equipment"
+msgstr ""
+
+#: sub/trade.php:168
+msgid ""
+"최신 WMS(창고관리시스템)를 기반으로 운영되는 <br />물류시스템은 체계적인 재고 관리와 공간활용이 가능합니다. <br />이 시스템을 통해 모든 "
+"과정을 효율적으로 관리하여 <br />신속하게 응답할 수 있도록 지원하며 운영 효율성을 극대화합니다."
+msgstr ""
+"The logistics system operated based on the latest <br />WMS (Warehouse Management System) enables <br />systematic inventory management "
+"and space utilization. <br />This system efficiently manages all processes, <br />supports rapid response, and maximizes operational "
+"efficiency."
+
+#: sub/trade.php:182
+msgid "Functional"
+msgstr ""
+
+#: sub/trade.php:183
+msgid "시스템을 효율적으로 관리해 <br />높은 생산성을 보장하는 기능성"
+msgstr "Functionality that ensures high <br />productivity by efficiently <br />managing the system"
+
+#: sub/trade.php:196
+msgid "Aesthetic"
+msgstr ""
+
+#: sub/trade.php:197
+msgid "세련된 외관과 기능성을 <br />만족시키는 미학적인 특징"
+msgstr "Aesthetic features that satisfy <br />sophisticated appearance and <br />functionality"
+
+#: sub/trade.php:210
+msgid "Resonable"
+msgstr ""
+
+#: sub/trade.php:211
+msgid "효율적인 성능을 제공하고 <br />사용자의 편의를 고려한 합리성"
+msgstr "Rationality that provides efficient <br />performance and considers user <br />convenience"
+
+#: sub/trade.php:223
+msgid ""
+"‘Art in us’ 우리안의 예술이라는 슬로건으로 미드클래스-하이엔드급 머신을 런칭했습니다. <br />프로 바리스타의 드림머신 기술 집약체로 내구"
+"성, 안정성을 최우선으로 설계되었습니다."
+msgstr ""
+"We launched a mid class - high end coffee machine with the slogan ‘Art in us’. <br />As a professional barista's dream coffee machine, "
+"<br />it is a technology-intensive machine designed with durability and stability as top priorities."
+
+#: sub/trade.php:227
+msgid "View more"
+msgstr ""

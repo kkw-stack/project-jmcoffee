@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+/*
+ * File    : rwd-hee.css
+ * Author  : STUDIO-JT (HEE)
+ *
+ * SUMMARY :
+ * 
+ */
+
+
+
+/* **************************************** *
+ * max-height: 8800px and min-width: 1481px
+ * **************************************** */
+@media(max-height: 880px) and (min-width: 1681px){
+
+    /* VARIABLE */
+    :root {
+        --manufacturing-process-item-height: 500rem;
+    }
+    
+    /* MANUFACTURING */
+    .manufacturing__process-view-title.jt-typo-en--06 { font-size: var(--font-size-en-07); line-height: var(--font-size-en-07); }
+    .manufacturing__process-view-subtitle.jt-typo--08 { font-size: 13rem; line-height: 22rem; }
+
+    .manufacturing__process-view-item:nth-child(2) { margin-left: -66rem; }
+    .manufacturing__process-view-item:nth-child(3) { margin-left: 46rem; }
+    .manufacturing__process-view-item:nth-child(4) { margin-left: -46rem; }
+    .manufacturing__process-view-item:nth-child(5) { margin-left: -539rem; }
+    .manufacturing__process-view-item:nth-child(6) { margin-left: -20rem; }
+    .manufacturing__process-view-item:nth-child(7) { margin-left: 18rem; }
+    .manufacturing__process-view-item:nth-child(8) { margin-left: 41rem; }
+    .manufacturing__process-view-item:nth-child(9) { margin-left: -11rem; }
+    .manufacturing__process-view-item:nth-child(10) { margin-left: -19rem; }
+    .manufacturing__process-view-item:nth-child(11) { top: 50%; left: 1240rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1680px
+ * **************************************** */
+@media(max-width: 1680px){
+
+    /* HIGHLIGHT */
+    .highlight-business__list { gap: 28rem; }
+    .highlight-business__list > li > a { padding: 52rem 36rem 36rem; }
+    .highlight-business__list > li figure { width: 200rem; height: 200rem; margin-bottom: 48rem; }
+    .highlight-business__list > li b { margin-bottom: 12rem; }
+    .highlight-business__list > li p br { display: none; }
+    
+}
+
+
+
+/* **************************************** *
+ * 1480px
+ * **************************************** */
+@media(max-width: 1480px){
+
+    :root {
+        --manufacturing-process-item-height: 540rem;
+    }
+
+    /* HIGHLIGHT */
+    .highlight-artinus .wrap-wide { margin-left: 0; margin-right: 0; }
+    .highlight-artinus__slideshow .highlight-slider__item { width: 800rem; }
+    .highlight-beans .wrap-middle { margin-left: 0; margin-right: 0; }
+    .highlight-beans__slideshow .highlight-slider__item { width: 500rem; }
+    
+    .highlight-business__list { gap: 22rem; }
+    .highlight-business__list > li figure { width: 180rem; height: 180rem; margin-bottom: 42rem; }
+    .highlight-business__list > li b { margin-bottom: 10rem; }
+    .highlight-business__list > li > a { padding: 50rem 32rem 32rem; }
+
+    /* MANUFACTURTING */
+    .manufacturing__system-bg i { width: 780rem; height: 780rem; }
+
+    .manufacturing__process-view-inner { padding-top: 71rem; }
+    .manufacturing__process-view-item:nth-child(2) { margin-left: -68rem; }
+    .manufacturing__process-view-item:nth-child(3) { margin-left: 39rem; }
+    .manufacturing__process-view-item:nth-child(4) { margin-left: -31rem; }
+    .manufacturing__process-view-item:nth-child(5) { margin-left: -577rem; }
+    .manufacturing__process-view-item:nth-child(6) { margin-left: -18rem; }
+    .manufacturing__process-view-item:nth-child(7) { margin-left: 25rem;}
+    .manufacturing__process-view-item:nth-child(8) { margin-left: 50rem; }
+    .manufacturing__process-view-item:nth-child(11) { left: 1327rem; }
+    
+}
+
+
+
+/* **************************************** *
+ * 1480px
+ * **************************************** */
+@media(max-width: 1200px){
+
+    :root {
+        --manufacturing-process-item-height: 420rem;
+    }
+
+    /* INQUIRE */
+    .inquire-info { width: calc(46% - 40rem); }
+    .inquire-form { width: calc(54% - 40rem); }
+
+    /* NEWS */
+    .jt-news-list { margin-top: -34rem; }
+    .jt-news-list__link { padding: 34rem 0; }
+
+    /* HIGHLIGHT */
+    .highlight-business__list > li figure { width: 170rem; height: 170rem; }
+    .highlight-business__list { gap: 18rem; }
+
+    /* MANUFACTURING */
+    .manufacturing__system b { margin-bottom: 20rem; }
+    .manufacturing__system-bg i { width: 680rem; height: 680rem; }
+
+    .manufacturing__process { padding-top: 320rem; }
+    .manufacturing__process-view-inner { padding-top: 45rem; }
+    .manufacturing__process-view-item:nth-child(2) { margin-left: -55rem; }
+    .manufacturing__process-view-item:nth-child(3) { margin-left: 39rem; }
+    .manufacturing__process-view-item:nth-child(4) { margin-left: -31rem; }
+    .manufacturing__process-view-item:nth-child(5) { margin-left: -450rem; }
+    .manufacturing__process-view-item:nth-child(6) { margin-left: -14rem; }
+    .manufacturing__process-view-item:nth-child(7) { margin-left: 19rem;}
+    .manufacturing__process-view-item:nth-child(8) { margin-left: 36rem; }
+    .manufacturing__process-view-item:nth-child(9) { margin-left: -11rem; }
+    .manufacturing__process-view-item:nth-child(10) { margin-left: -12rem; }
+    .manufacturing__process-view-item:nth-child(11) { left: 1105rem; }
+    .manufacturing__process-view-subtitle { margin-top: 4rem; }
+
+    .manufacturing__icons { padding-top: 240rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media(max-width: 1023px){
+
+    /* INQUIRE */
+    .inquire-info { width: calc(48% - 40rem); }
+    .inquire-info__title br { display: none; }
+
+    .inquire-form { width: calc(52% - 40rem); }
+
+    /* NEWS */
+    .jt-news-list { margin-top: -32rem; }
+    .jt-news-list__link { padding: 32rem 0; }
+
+    /* HIGHLIGHT */
+    .highlight-section__title { margin-left: 40rem; margin-right: 40rem; }
+    .highlight-section__more { display: inline-block; margin-top: 60rem; opacity: 0; }
+
+    .highlight-slider .swiper-navigation { display: none; }
+    .highlight-slider .swiper-pagination { display: block; margin-top: 60rem; }
+
+    .highlight-slider.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, 
+    .highlight-slider .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic { left: 50%; transform: translateX(-50%); }
+    .highlight-slider .swiper-pagination .swiper-pagination-bullet-active-prev:after, 
+    .highlight-slider .swiper-pagination .swiper-pagination-bullet-active-next:after { width: 4rem; height: 4rem; margin-top: -2rem; margin-left: -2rem; }
+    .highlight-slider .swiper-pagination .swiper-pagination-bullet-active-prev-prev, 
+    .highlight-slider .swiper-pagination .swiper-pagination-bullet-active-next-next { opacity: 0; }
+
+    .highlight-artinus { text-align: center; }
+    .highlight-artinus__slideshow .highlight-slider__item { width: 680rem; }
+
+    .highlight-beans { text-align: center; }
+    .highlight-beans__slideshow .highlight-slider__item { width: 360rem; }
+
+    .highlight-business .wrap-wide { margin-left: 0; margin-right: 0; }
+    .highlight-business__list { gap: 16rem; white-space: nowrap; padding-left: 40rem; padding-right: 40rem; overflow-x: scroll; overflow-y: hidden; }
+    .highlight-business__list > li { min-width: 300rem; white-space: normal; }
+    .highlight-business__list > li > a { padding: 48rem 30rem 28rem; }
+    .highlight-business__list > li figure { width: 160rem; height: 160rem; margin-bottom: 40rem; }
+
+    /* MANUFACTURING */
+    .manufacturing__system-bg i { width: 700rem; height: 700rem; }
+
+    .manufacturing__process { padding-top: 320rem; }
+
+    .manufacturing__icons { padding-top: 320rem; }
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+@media(max-width: 860px){
+
+    /* INQUIRE */
+    .inquire-container { flex-direction: column; gap: 80rem; }
+    .inquire-info { width: auto; padding-bottom: 0; position: relative; top: 0; }
+    .inquire-info__title br { display: block; }
+    .inquire-form { width: auto; }
+
+    /* NEWS */
+    .jt-news-list { margin-top: -28rem; }
+    .jt-news-list__link { padding: 28rem 0; }
+    .jt-news-list__cat { margin-bottom: 6rem; }
+
+    /* HIGHLIGHT */
+    .highlight-artinus__slideshow .highlight-slider__item { width: 600rem; }
+    .highlight-beans__slideshow .highlight-slider__item { width: 340rem; }
+
+    /* MANUFACTURING */
+    .manufacturing__system b { margin-bottom: 18rem; }
+    .manufacturing__system-bg i { width: 100%; height: auto; }
+
+    .manufacturing__feature { padding-top: 160rem; }
+
+    .manufacturing__process { padding-top: 240rem; }
+    .manufacturing__process-view-item { opacity: 1; }
+    .manufacturing__process-view-item:nth-child(5) { margin-left: -453rem; }
+    .manufacturing__process-view-item:nth-child(11) { left: 1110rem; }
+
+    .manufacturing__icons { padding-top: 240rem; }
+}
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media(max-width: 540px){
+
+    :root {
+        --manufacturing-process-item-height: 400rem;
+    }
+
+    /* INQUIRE */
+    .inquire-info__title br { display: none; }
+    .inquire-info__list { gap: 26rem; margin-top: 40rem; }
+    .inquire-info__list > li { gap: 2rem; }
+
+    /* NEWS */
+    .jt-news-list { margin-top: -22rem; }
+    .jt-news-list__link { padding: 22rem 0; }
+    .jt-news-list__content { display: block; }
+    .jt-news-list__title-wrap { width: 100%; }
+    .jt-news-list__cat { margin-bottom: 6rem; }
+    .jt-news-list__cat.jt-typo-en--08 { font-size: var(--font-size-en-09); line-height: var(--font-lineheight-en-09); }
+    .jt-news-list__date { display: inline-block; }
+    .jt-news-list__date.jt-typo-en--08 { font-size: var(--font-size-en-09); line-height: var(--font-lineheight-en-09); }
+
+    /* HIGHLIGHT */
+    .highlight-section__title { margin-left: 20rem; margin-right: 20rem; }
+    .highlight-artinus { padding-top: 134rem; }
+    
+    .highlight-artinus__slideshow { margin-top: 24rem; }
+    .highlight-artinus__slideshow .highlight-slider__item { width: 90%; }
+    
+    .highlight-beans__slideshow { margin-top: 50rem; }
+    .highlight-beans__slideshow .highlight-slider__item { width: 100%; }
+    .highlight-beans__slideshow .highlight-slider__img { padding-top: 0; width: 220rem; height: 220rem; margin: 0 auto; }
+    .highlight-beans__slideshow .highlight-slider .swiper-pagination { margin-top: 40rem; }
+    
+    .highlight-slider .swiper-pagination { margin-top: 24rem; }
+
+    .highlight-business__list { padding-left: 20rem; padding-right: 20rem; gap: 12rem; }
+    .highlight-business__list > li { min-width: 290rem; }
+    .highlight-business__list > li > a { padding: 42rem 24rem 24rem; }
+
+    html.android .highlight-business__list > li b > i { vertical-align: 0rem; }
+    html.android .highlight-business__list > li:nth-child(1) b > i,
+    html.android .highlight-business__list > li:nth-child(2) b > i { vertical-align: -1rem; }
+
+    /* MANUFACTURING */
+    .manufacturing__intro-desc br { display: none; }
+    .manufacturing__system b { margin-bottom: 16rem; }
+    .manufacturing__system-txt br { display: none; }
+    .manufacturing__feature { padding-top: 60rem; }
+    
+    .manufacturing__process { padding-top: 200rem; }
+    .manufacturing__process-view-inner { padding: 45rem 100rem 0; }
+    .manufacturing__process-view-item:nth-child(2) { margin-left: -53rem; }
+    .manufacturing__process-view-item:nth-child(3) { margin-left: 39rem; }
+    .manufacturing__process-view-item:nth-child(4) { margin-left: -31rem; }
+    .manufacturing__process-view-item:nth-child(5) { margin-left: -432rem; }
+    .manufacturing__process-view-item:nth-child(6) { margin-left: -14rem; }
+    .manufacturing__process-view-item:nth-child(7) { margin-left: 19rem; }
+    .manufacturing__process-view-item:nth-child(11) { left: 853rem; }
+    .manufacturing__process-view-title { font-size: var(--font-size-en-07); line-height: var(--font-lineheight-en-07); }
+    .manufacturing__process-view-subtitle { margin-top: 4rem; }
+
+    .manufacturing__icons { padding-top: 200rem; }
+}

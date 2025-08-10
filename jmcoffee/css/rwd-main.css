@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/*
+ * File    : rwd-main.css
+ * Author  : STUDIO-JT (HREE)
+ *
+ * SUMMARY :
+ * 1680px
+ * 1480px
+ * 1200px
+ * 1023px
+ * 860px
+ * 540px
+ */
+
+
+
+/* **************************************** *
+ * 1680px
+ * **************************************** */
+@media (max-width: 1680px){
+
+    /* ABOUT US */
+    .main-aboutus__list { gap: 100rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1480px
+ * **************************************** */
+@media (max-width: 1480px){
+
+    /* LAYOUT */
+    .main-section { padding: 160rem 0; }
+    .main-section .wrap { margin: 0 200rem; max-width: none; }
+
+    /* ABOUT US */
+    .main-aboutus__list { margin-top: 160rem; }
+
+    /* TRADE */
+    .main-trade__inner { width: 50.9vw; height: 50.9vw; }
+
+    /* PRODUCT */
+    .main-product__inner { width: 37vw; height: auto; }
+
+    /* CONSULTING */
+    .main-consulting { padding-bottom: 0; }
+    .main-consulting__inner { width: 57.8vw; height: 57.8vw; }
+
+}
+
+
+
+/* **************************************** *
+ * 1200px
+ * **************************************** */
+@media (max-width: 1200px){
+
+    /* LAYOUT */
+    .main-section { padding: 160rem 0; }
+    .main-section .wrap { margin: 0 170rem; }
+    .main-section__desc { margin-top: 28rem; }
+    .main-section__btn { margin-top: 48rem; }
+
+    /* VISUAL */
+    .main-visual__content h3 { margin-top: 32rem; }
+    .main-visual__content p { margin-top: 10rem; }
+
+    /* ABOUT US */
+    .main-aboutus__list { gap: 30rem; margin-top: 120rem; }
+    .main-aboutus__list-item { width: 144rem; }
+    .main-aboutus__list-item-figure { padding-bottom: 32rem; }
+
+    /* TRADE */
+    .main-trade .main-section__head { margin-top: 20rem; }
+
+    /* PRODUCT */
+    .main-product { padding-bottom: 120rem; }
+
+    /* CONSULTING */
+    .main-consulting { padding: 120rem 0 0; }
+
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media (max-width: 1023px){
+
+    /* LAYOUT */
+    .main-section .wrap { margin: 0 40rem; }
+    .main-section__desc { margin-top: 20rem; }
+
+    /* VISUAL */
+    .main-visual__content h3 { margin-top: 28rem; }
+
+    /* ABOUT US */
+    .main-aboutus { padding-top: 160rem; }
+    .main-aboutus__list { margin-top: 100rem; }
+
+    /* TRADE */
+    .main-trade__inner { width: 66vw; height: 66vw; }
+
+    /* PRODUCT */
+    .main-product__inner { width: 52vw; }
+    .main-product__inner > a { padding-top: 20rem; }
+    .main-product { padding-bottom: 100rem; }
+
+    /* CONSULTING */
+    .main-consulting { padding-bottom: 0; }
+    .main-consulting__inner { width: 70vw; height: 70vw; }
+
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+@media (max-width: 860px){
+
+    /* ABOUT US */
+    .main-aboutus__list { grid-template-columns: repeat(2, 1fr); gap: 100rem 60rem; padding: 0 80rem; }
+
+    /* TRADE */
+    .main-trade__inner { width: 100%; height: auto; padding-top: 100%; }
+
+    /* PRODUCT */
+    .main-product__inner { width: 80%; height: auto; }
+
+    /* CONSULTING */
+    .main-consulting__inner { width: 100%; height: auto; padding-top: 100%; }
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (max-width: 540px){
+
+    /* LAYOUT */
+    .main-section { padding: 100rem 0; }
+    .main-section .wrap { margin: 0 20rem; }
+    .main-section__title br:not(.smbr) { display: none; }
+    .main-section__desc { margin-top: 24rem; padding: 0 24rem; }
+    .main-section__desc br:not(.smbr) { display: none; }
+    .main-section__btn { margin-top: 40rem; }
+
+    /* VISUAL */
+    .main-visual__content h3 { margin-top: 24rem; }
+
+    /* ABOUT US */
+    .main-aboutus { padding-top: 100rem; }
+    .main-aboutus__list { gap: 40rem; margin-top: 60rem; padding: 0 15rem; }
+    .main-aboutus__list-item { width: 140rem; }
+    .main-aboutus__list-item-title { font-size: var(--font-size-en-08); line-height: var(--font-lineheight-en-08); }
+    .main-aboutus__list-item-figure { padding-bottom: 12rem; }
+
+    /* TRADE */
+    .main-trade { padding: 180rem 0; margin: 100rem 0; }
+    .main-trade .main-section__head { margin-top: 0; }
+    .main-trade .main-section__body { width: 205%; height: 205%; }
+    .main-trade .main-section__body { width: 693rem; height: 693rem; }
+
+    /* PRODUCT */
+    .main-product__inner { width: 100%; }
+    .main-product__inner > a { padding-top: 40rem; }
+
+    /* CONSULTING */
+    .main-consulting { padding: 180rem 0; margin: 48rem 0 -30rem; }
+    .main-consulting .main-section__body { width: 205%; height: 205%; }
+
+}

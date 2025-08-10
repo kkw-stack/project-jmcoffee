@@ -1,0 +1,464 @@
+@charset "utf-8";
+
+/*
+ * File    : rwd-hree.css
+ * Author  : STUDIO-JT (HREE)
+ *
+ * SUMMARY :
+ * 2000px
+ * 1680px
+ * 1480px
+ * 1200px
+ * 1023px
+ * 860px
+ * 540px
+ */
+
+
+
+/* **************************************** *
+ * 2000px
+ * **************************************** */
+@media (min-width: 2000px){
+
+
+}
+
+
+
+/* **************************************** *
+ * 1900px
+ * **************************************** */
+@media (max-width: 1900px){
+
+    /* LAYOUT */
+    .article__card-list-item-title p br { display: none; }
+
+    /* PRODUCT */
+    .artinus-single .products-single-contents__figure { width: 90%; }
+    .coffee-beans-single .products-single-contents__figure { width: 100%; position: absolute; top: 50%; left: 50%; translate: -50% -50%; }
+}
+
+
+
+/* **************************************** *
+ * 1680px
+ * **************************************** */
+@media (max-width: 1680px){
+
+    /* PRODUCT */
+    .products-visual__slider-item-figure { max-width: 47%; }
+    .products-menu { width: 38%; }
+    .products-menu__inner { padding: 100rem 80rem; }
+    .products-single-contents__model { width: calc(100% - 38%); }
+    .products-single-contents__info { width: 38%; padding: 140rem 80rem; }
+
+}
+
+
+
+
+/* **************************************** *
+ * 1480px
+ * **************************************** */
+@media (max-width: 1480px){
+
+    /* LAYOUT */
+    .article__card-list--four { gap: 24rem; }
+
+    .article__icon-list { gap: 120rem; justify-content: center; padding: 0; }
+    
+    /* ABOUT US */
+    .aboutus-brand__vision { padding: 300rem 0 180rem; }
+    .aboutus-objective { padding: 180rem 0 360rem; }
+    .aboutus-history { padding-top: 360rem; }
+    .aboutus-history__century-num span { font-size: 120rem; }
+    .aboutus-history__century { justify-content: center; }
+    .aboutus-history__century-list { width: 68%; }
+    .aboutus-history__century:last-child .aboutus-history__year-list { padding-left: 22rem; }
+    .aboutus-history__year { margin-bottom: 160rem; }
+    .aboutus-history__year-num span { font-size: 120rem; }
+    .aboutus-history__year-list-highlight li:last-child { margin-bottom: 24rem; }
+    .aboutus-history__btn { width: 512rem; margin: 140rem 0 0 auto; }
+
+    /* TRADE */
+    .trade-inner { gap: 360rem; margin-top: 360rem; }
+    .trade-artinus__video { width: 63vw; height: auto; }
+    .trade-artinus .article__section-title { margin-bottom: 20rem; }
+
+    /* CONSULTING */
+    .consulting-inner { gap: 360rem; margin-top: 360rem; }
+    .consulting-frc__figure { width: 40.5vw; }
+
+    /* BRAND */
+    .brand-inner { gap: 360rem; margin-top: 360rem; }
+
+    /* PRODUCT */
+    .products-menu__inner { padding: 100rem 70rem; }
+    .products-menu__title::after { top: 75rem; height: 25rem; }
+    .products-menu__list { margin-top: 25rem; padding-top: 25rem; }
+    .products-menu__list-item { padding-top: 28rem; padding-bottom: 28rem; }
+
+    .products-single-contents__info { padding: 130rem 70rem; }
+    .products-single-contents__info-title p { margin-top: 32rem; }
+    .products-single-contents__info-table { padding: 70rem 0; }
+    .products-single-contents__info-tech h2 { margin-bottom: 20rem; }
+    .products-single-contents__info-link h2 { margin-bottom: 20rem; }
+    .products-single-contents__info-note h2 { margin-bottom: 20rem; }
+    .products-single-contents__info-note-cate { gap: 6rem; }
+    .products-single-contents__info-note-cate span { padding: 5rem 18rem 7rem; }
+    .products-single-contents__info-note-percent { margin-top: 32rem; }
+    .products-single-contents__info-title + .products-single-contents__info-note { padding-top: 70rem; }
+    .products-single-contents__info-btn { padding-top: 100rem; }
+    .products-single-contents__back-btn { padding-top: 100rem; }
+    
+    .artinus-single .products-single-contents__figure { width: 80%; }
+    .artinus-single .products-single-contents__info-title-icon { width: 60rem; height: 53rem; margin-bottom: 20rem; }
+
+    .coffee-beans-single .products-single-contents__info-title-icon { width: 124rem; height: 48rem; margin-bottom: 20rem; }
+
+    .products-single-nav { height: 72rem; }
+}
+
+
+
+/* **************************************** *
+ * 1200px
+ * **************************************** */
+@media (max-width: 1200px){
+
+    /* LAYOUT */
+    .article__card-list { gap: 18rem; }
+    .article__card-list-item-title { padding: 18rem 18rem 0 18rem; }
+    .article__card-list--four { display: flex; white-space: nowrap; overflow-x: scroll; overflow-y: hidden; margin: 0 -40rem; font-size: 0; padding-bottom: 1rem; padding-left: 40rem; padding-right: 40rem; }
+    .article__card-list--four .article__card-list-item { min-width: 350rem; display: inline-flex; row-gap: 32rem; }
+    .article__card-list-item-title p { white-space: normal; margin-top: 8rem; }
+
+    .article__icon-list { justify-content: center; gap: 70rem; }
+    .article__icon-list-item { width: 260rem; }
+    .article__icon-list-item-figure { width: 104rem; }
+
+    /* ABOUT US */
+    .aboutus-brand__vision { padding: 240rem 0 140rem; }
+    .aboutus-objective { padding: 140rem 0 280rem; }
+    .aboutus-objective .article__card-list-item-figure { width: 80.1%; }
+    .aboutus-objective .article__card-list-item { row-gap: 36rem; }
+    .aboutus-history { padding-top: 280rem; }
+    .aboutus-history__century { gap: 6rem; }
+    .aboutus-history__century-num { margin-left: 24rem; }
+    .aboutus-history__century-num span { font-size: 100rem; }
+    .aboutus-history__century:last-child .aboutus-history__year-list { padding-left: 17rem; }
+    .aboutus-history__year { margin-bottom: 140rem; }
+    .aboutus-history__year-list { padding-top: 16rem; }
+    .aboutus-history__year-num span { font-size: 100rem; }
+    .aboutus-history__year-list-desc li::before { top: calc(1em - 6rem); }
+    .aboutus-history__year-list-desc li:not(:first-child) { margin-top: 3rem; }
+    .aboutus-history__btn { width: 502rem; }
+
+    /* TRADE */
+    .trade-inner { gap: 280rem; margin-top: 280rem; }
+
+    /* CONSULTING */
+    .consulting-inner { gap: 280rem; margin-top: 280rem; }
+
+    /* BRAND */
+    .brand-inner { gap: 280rem; margin-top: 280rem; }
+
+    /* PRODUCT */
+    .products-logo { top: 38rem; }
+    
+    .products-visual__title { bottom: 120rem; }
+    .products-visual__slider .swiper-navigation { left: 44rem; translate: 0; }
+    .products-menu__inner { padding: 80rem 50rem; }
+    .products-menu__title::after { top: 64rem; height: 23rem; }
+    .products-menu__list { margin-top: 23rem; padding-top: 23rem; }
+    .products-menu__list-item { padding-top: 24rem; padding-bottom: 24rem; min-height: 105rem; }
+    .products-menu__list-item-figure { width: 140rem; height: 105rem; }
+    .products-menu__list-item-figure img { background-size: 140rem 105rem; height: 100%; }
+    .products-menu__list-item-desc { width: calc(100% - 170rem); }
+    .products-single-contents__info { padding: 120rem 50rem; }
+    .products-single-contents__info-title p { margin-bottom: 12rem; margin-top: 30rem; }
+    .products-single-contents__info-title p br { display: none; }
+    .products-single-contents__info-table { padding: 60rem 0; }
+    .products-single-contents__info-title + .products-single-contents__info-note { padding-top: 60rem; }
+    .products-single-contents__info-btn { padding-top: 70rem; }
+    .products-single-contents__back-btn { padding-top: 70rem; }
+    
+    .artinus .products-logo { top: 42rem; }
+    .artinus .products-logo .jt-icon { width: 140rem; height: 28rem; }
+    .artinus-single .products-visual__slider .swiper-navigation .swiper-pagination { min-width: 180rem; }
+    .artinus-single .products-single-contents__info-title-icon { width: 53rem; height: 45rem; }
+
+    .coffee-beans .products-logo { top: 42rem; }
+    .coffee-beans .products-logo .jt-icon { width: 114rem; }
+    .coffee-beans-single .products-single-contents__info-title-icon { width: 105rem; height: 40rem; }
+    .coffee-beans-single .products-single-contents__figure { width: 100%; }
+
+    .products-single-nav { height: 66rem; }
+    .products-single-nav__pagenation--prev { padding: 0 40rem; }
+    .products-single-nav__pagenation--next { padding: 0 40rem; }
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media (max-width: 1023px){
+
+    /* LAYOUT */
+    .article__card-list--four .article__card-list-item { width: 297rem; }
+
+    .article__icon-list { gap: 30rem; }
+    .article__icon-list-item-figure { width: 94rem; }
+
+    /* ABOUT US */
+    .aboutus-brand__intro-desc > p + p { margin-top: 48rem; }
+    .aboutus-brand__vision-item:not(:first-child) { margin-top: 90rem; }
+    .aboutus-objective .article__card-list-item { padding-bottom: 30rem; }
+    .aboutus-history__century-num span { font-size: 88rem; }
+    .aboutus-history__year { margin-bottom: 120rem; }
+    .aboutus-history__year-list { width: 390rem; }
+    .aboutus-history__year-num span { font-size: 88rem; }
+    .aboutus-history__year-list-highlight li:not(:first-child) { margin-top: 3rem; }
+    .aboutus-history__btn { width: 445rem; }
+
+    /* CONSULTING */
+    .consulting-frc__desc h2 { margin-bottom: 28rem; }
+    .consulting-frc__desc-btn { margin-top: 32rem; }
+
+    /* PRODUCT */
+    .products-visual__slider .swiper-navigation { bottom: 44rem; }
+    .products-visual__slider .swiper-navigation .swiper-pagination { width: 170rem; max-width: 170rem; }
+    .products-visual__title { bottom: 96rem; }
+    .products-menu { width: 40%; }
+    .products-menu__inner { padding: 70rem 40rem; }
+    .products-menu__title::after { top: 55rem; height: 18rem; }
+    .products-menu__list { margin-top: 18rem; padding-top: 18rem; }
+    .products-menu__list-item { padding-top: 20rem; padding-bottom: 20rem; }
+
+    .products-single-contents__info { padding: 100rem 40rem; width: 40%; }
+    .products-single-contents__info-title p { margin-bottom: 0; }
+    .products-single-contents__info-table-item b { width: 160rem; }
+    .products-single-contents__info-btn { padding-top: 60rem; }
+    .products-single-contents__back-btn { padding-top: 60rem; }
+    .products-single-contents__info-note-percent-bar { height: 5rem; }
+
+    .artinus .products-logo .jt-icon { width: 124rem; height: 26rem; }
+    .artinus-single .products-single-contents__info-title-icon { width: 46rem; height: 38rem; }
+
+    .coffee-beans .products-visual__title-item .jt-icon { width: 120rem; }
+    .coffee-beans-single .products-single-contents__info-title-icon { margin-bottom: 16rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+@media (max-width: 860px){
+
+    /* LAYOUT */
+    .article__card-list { display: flex; white-space: nowrap; overflow-x: scroll; overflow-y: hidden; margin-left: -40rem; margin-right: -40rem; font-size: 0; gap: 12rem; padding-left: 40rem; padding-right: 40rem; }
+    .article__card-list::-webkit-scrollbar { display: none; }
+    .article__card-list-item { display: inline-flex; }
+    .article__card-list--three .article__card-list-item { width: 290rem; }
+    .article__card-list--four .article__card-list-item { width: 290rem; min-width: 290rem; }
+
+    .article__auto-slider-item-figure { height: 58vh; padding-top: inherit; }
+    .article__auto-slider .swiper-navigation { bottom: 24rem; }
+    .article__auto-slider .swiper-control { right: 32rem; bottom: 24rem; }
+
+    .article__icon-list-item-desc p br { display: none; }
+
+    /* ABOUT US */
+    .aboutus-brand__intro { padding: 240rem 0 0; }
+    .aboutus-brand__intro-inner { padding: 0 60rem; }
+    .aboutus-brand__intro-desc p br { display: none; }
+    .aboutus-brand__vision { padding: 300rem 0 150rem; }
+    .aboutus-objective { padding: 150rem 0 240rem; }
+    .aboutus-objective .article__card-list-item { height: 386rem; row-gap: 24rem; }
+    .aboutus-history { padding-top: 240rem; }
+    .aboutus-history__century { margin-top: 0; }
+    .aboutus-history__century + .aboutus-history__century { padding-top: 40rem; }
+    .aboutus-history__century-num { display: none; }
+    .aboutus-history__century-list { width: 100%; }
+    .aboutus-history__year { flex-wrap: wrap; margin-bottom: 40rem; padding-bottom: 40rem; gap: 0; }
+    .aboutus-history__year { border-bottom: 1rem solid var(--color-gray-900); }
+    .aboutus-history__century:last-child .aboutus-history__year-list { padding-left: 0rem; }
+    .aboutus-history__year-num { width: 100%; display: flex; }
+    .aboutus-history__year-num span { font-size: var(--font-size-en-03); line-height: var(--font-lineheight-en-03); }
+    .aboutus-history__year-num span.front-number { display: inline-block; }
+    .aboutus-history__year-list { width: 100%; padding-top: 18rem; }
+    .aboutus-history__year-list-highlight li:last-child { margin-bottom: 24rem; }
+    .aboutus-history__btn { width: 100%; text-align: center; margin: 80rem 0 0 auto; }
+    .aboutus-history--sticky { position: relative; top: auto; }
+
+    /* TRADE */
+    .trade-inner { gap: 240rem; margin-top: 240rem; }
+    .trade-figure__inner { height: 58vh; padding-top: inherit; background-position-x: 31%; }
+
+    /* CONSULTING*/
+    .consulting-inner { gap: 240rem; margin-top: 240rem; }
+    .consulting-figure__inner { height: 58vh; padding-top: inherit; background-position-x: 64%; }
+    .consulting-frc__inner { display: flex; flex-wrap: wrap-reverse; }
+    .consulting-frc__desc { position: relative; margin-bottom: 80rem; }
+    .consulting-frc__figure { width: 60%; }
+
+    /* BRAND */
+    .brand-inner { gap: 240rem; margin-top: 240rem; }
+
+    /* PRODUCT */
+    .products-logo { display: none; }
+    .products-visual__slider { top: 102rem; height: calc(100% - 204rem); position: relative; }
+    .products-visual__slider .swiper-navigation { bottom: auto; left: auto; translate: 0; position: relative; margin-top: 8%; }
+    .products-visual__slider .swiper-navigation .swiper-button { display: none; }
+    .products-visual__slider .swiper-navigation .swiper-pagination { left: 0; width: auto; max-width: none; }
+    .products-visual__slider-item-figure { width: 100%; height: 100%; top: 0; left: 0; translate: 0; max-width: none; }
+    .products-visual__slider-item-figure .swiper-lazy { width: 80%; height: 59.1%; padding-top: 63%; top: 0%; left: 50%; translate: -50% 0%; position: relative; }
+    .products-visual__title { position: relative; bottom: auto; left: 0; width: 100%; min-height: 150rem; pointer-events: none; }
+    .products-visual__title-wrap { width: 100%; height: 40.9%; position: absolute; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .products-visual__title-item { left: 50%; translate: -50% 0; pointer-events: none; }
+    .products-visual__title-item .jt-split-text--line { text-align: center!important; margin-bottom: -5rem; padding-bottom: 5rem; }
+    .products-visual__title-item .jt-split-text--line-wrap { overflow: visible; }
+    .products-visual__title-item .jt-icon { display: inline-block; width: 124rem; height: 27rem; vertical-align: bottom; }
+    .products-visual__btn { right: auto; left: 50%; translate: -50% 0; }
+    .products-menu { width: 100%; height: calc(100svh - 20%); border-radius: 20rem 20rem 0 0; top: auto; bottom: 0%; max-height: -webkit-fill-available; }
+    .products-menu__inner { margin: 80rem 40rem; padding: 0; padding-bottom: 160rem; }
+
+    html.android .products-menu { height: calc(100vh - 20%); }
+
+    .products-single-contents { flex-wrap: wrap; padding-top: 102rem; }
+    .products-single-contents__model { width: 100%; padding-top: 56.22%; height: auto; position: relative; overflow: hidden; }
+    .products-single-contents__info { width: 100%; position: relative; padding: 0rem 40rem 80rem; }
+    .products-single-contents__info > div.products-single-contents__info-title { width: calc(100% + 100rem); margin: 0px -60rem; padding: 54rem 40rem 114rem; background: var(--color-black); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+    .products-single-contents__info > div.products-single-contents__info-table { padding-top: 80rem; }
+    .products-single-contents__info-title-icon { margin-bottom: 16rem; }
+    .products-single-contents__info-title b { margin-top: 12rem; }
+    .products-single-contents__info-title p { margin-top: 32rem; }
+    .products-single-contents__info-tech-list li::before { top: calc(1em - 5rem); }
+    html.ios .products-single-contents__info-tech-list li::before { top: calc(1em - 7rem); }
+    .products-single-contents__info-btn { padding-top: 80rem; }
+    .products-single-contents__back-btn { padding-top: 80rem; }
+    
+    .products-single-contents__info-title p { margin-top: 30rem; }
+    .products-single-contents__info-title p br { display: block; }
+    .products-single-contents__info-btn { padding-top: 60rem; }
+
+    .artinus-single .products-single-contents__figure { width: 85%; height: auto; aspect-ratio: 16 / 9; }
+    .coffee-beans-single .products-single-contents__figure { width: 110%; position: absolute; top: 50%; left: 50%; translate: -50% -50%; }
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (max-width: 540px){
+
+    /* LAYOUT */
+    .article__card-list { margin-left: -20rem; margin-right: -20rem; padding-left: 20rem; padding-right: 20rem; }
+    .article__card-list-item { padding: 14rem; }
+    .article__card-list-item-title p { margin-top: 8rem; }
+    .article__card-list-item-title p br.smbr { display: block; }
+
+    .article__card-list--four { margin-left: -20rem; margin-right: -20rem; padding-left: 20rem; padding-right: 20rem; }
+
+    .article__icon-list { flex-wrap: wrap; justify-content: center; gap: 80rem; padding: 20rem 0 0 0; }
+    .article__icon-list-item-desc { margin-top: 24rem; }
+    .article__icon-list-item-desc p { margin-top: 12rem; }
+
+    .article__auto-slider-item-figure { height: auto; padding-top: 128.2%; }
+    .article__auto-slider .swiper-navigation { bottom: 20rem; }
+    .article__auto-slider .swiper-control { right: 24rem; bottom: 20rem; }
+    .article__auto-slider .swiper-state__btn span { display: none; }
+
+    /* ABOUT US */
+    .aboutus-brand__intro { padding: 100rem 12rem 100rem; }
+    .aboutus-brand__intro-inner { padding: 0rem; }
+    .aboutus-brand__intro-desc > p + p { margin-top: 32rem; }
+    .aboutus-brand__vision { padding: 100rem 0; }
+    .aboutus-brand__vision-item:not(:first-child) { margin-top: 80rem; }
+    .aboutus-brand__vision-item p { margin-top: 6rem; font-size: var(--font-size-en-03); line-height: var(--font-lineheight-en-03); }
+    .aboutus-brand__vision-item:nth-child(2) p .jt-split-text--line:first-child { margin-bottom: 8rem; }
+    .aboutus-objective { padding: 100rem 0 200rem; }
+    .aboutus-objective .article__card-list-item { padding-bottom: 15rem; height: 386rem; }
+    .aboutus-history { padding-top: 200rem; }
+    .aboutus-history__year-list { padding-top: 12rem; }
+    .aboutus-history__year-list-highlight li:last-child { margin-bottom: 16rem; }
+    .aboutus-history__year-list-highlight span { font-size: var(--font-size-ko-06); line-height: var(--font-lineheight-ko-06); }
+    .aboutus-history__year-list-highlight li:not(:first-child) { margin-top: 4rem; }
+    .aboutus-history__year-list-desc li { padding-left: 12rem; }
+    .aboutus-history__year-list-desc li::before { top: calc(1em - 7rem); }
+
+    /* TRADE */
+    .trade-inner { gap: 200rem; margin-top: 100rem; }
+    .trade-figure__inner { height: auto; padding-top: 128.2%; background-position-x: center; }
+    .trade-artinus__video { width: 100%; }
+
+    /* MANUFACTURING */
+    .manufacturing__intro { height: auto; padding: 100px 0; }
+
+    /* CONSULTING*/
+    .consulting-inner { gap: 200rem; margin-top: 100rem; }
+    .consulting-figure__inner { height: auto; padding-top: 128.2%; background-position-x: center; }
+    .consulting-frc__desc { padding: 0 12rem; }
+    .consulting-frc__desc > div p br { display: none; }
+    .consulting-frc__desc-btn { margin-top: 32rem; }
+    .consulting-frc__desc h2 { font-size: var(--font-size-en-03); line-height: var(--font-lineheight-en-03); }
+    .consulting-frc__figure { width: 85%; }
+
+    /* BRAND */
+    .brand-inner { gap: 200rem; margin-top: 100rem; }
+    
+    /* PRODUCT */
+    .products-visual__slider { top: 74rem; height: calc(100% - 150rem); max-height: -webkit-fill-available; }
+    .products-visual__slider .swiper-navigation { margin-top: 37rem; }
+    .products-visual__slider-item-figure .swiper-lazy { width: 95%; background-size: contain; }
+    .products-visual__title { min-height: 64rem; }
+    .products-visual__title-item .jt-icon { height: 24rem; }
+    .products-visual__btn { bottom: 30rem; }
+    .products-visual__btn span { font-size: var(--font-size-en-08); line-height: var(--font-lineheight-en-08); }
+    .products-menu__inner { margin: 40rem 20rem; padding-top: 20rem; padding-bottom: 80rem; }
+    .products-menu__title::after { height: 20rem; }
+    .products-menu__list { margin-top: 20rem; padding-top: 20rem; }
+    .products-menu__list-item { padding-top: 20rem; padding-bottom: 20rem; min-height: auto; height: 114rem; }
+    .products-menu__list-item-desc { width: calc(100% - 180rem); }
+    .products-menu__list-item-desc p { margin-top: 8rem; }
+    
+    .products-single-contents { padding-top: 74rem; }
+    .products-single-contents__model { margin: 68rem 0 79rem; }
+    .products-single-contents__info { padding: 0rem 20rem 80rem; }
+    .products-single-contents__info > div.products-single-contents__info-title { padding-top: 0; width: calc(100% + 40rem); margin: 0px -20rem;}
+    .products-single-contents__info-title p br { display: none; }
+    .products-single-contents__info-title-icon { margin-bottom: 8rem; }
+    .products-single-contents__info-table-item:first-child { padding-top: 0; }
+    .products-single-contents__info-table-item b { width: 153rem; }
+    .products-single-contents__info-tech-list { margin-top: 24rem; }
+    .products-single-contents__info-tech-list li::before { top: calc(1em - 6rem); }
+    html.ios .products-single-contents__info-tech-list li::before { top: calc(1em - 7rem); }
+    .products-single-contents__info-note-cate { gap: 6rem; }
+    .products-single-contents__info-note-cate span { padding: 2rem 17rem 3rem; }
+    .products-single-contents__info-note-percent { margin-top: 24rem; }
+    .products-single-contents__back-btn span { font-size: var(--font-size-en-07); line-height: var(--font-lineheight-en-07); }
+
+    .artinus-single .products-single-contents__figure { width: 100%; }
+    .artinus-single .products-single-contents__info-title-icon { width: 38rem; height: 32rem; margin-bottom: 16rem; }
+    .coffee-beans .products-visual__title-item-logo .jt-icon { width: 84rem; height: 26rem; vertical-align: bottom; }
+    .coffee-beans .products-visual__title-item-logo { margin-bottom: 4px; }
+    .coffee-beans .products-visual__slider-item-figure .swiper-lazy { width: 90%; padding-top: 70%; }
+
+    .coffee-beans-single .products-single-contents__figure { width: 127%; }
+    .coffee-beans-single .products-single-contents__info-title-icon { width: 75rem; height: 32rem; }
+
+    .products-single-nav { height: 56rem; }
+    html.chrome .products-single-nav { margin-bottom: 10rem; }
+    .products-single-nav__pagenation a .jt-icon { transform: translateY(0); }
+    .products-single-nav__pagenation--prev { padding: 0 20rem; }
+    .products-single-nav__pagenation .products-single-nav__pagenation--prev span { display: none; }
+    .products-single-nav__pagenation--next { padding: 0 20rem; }
+    .products-single-nav__pagenation .products-single-nav__pagenation--next span { display: none; }
+
+}

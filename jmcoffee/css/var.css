@@ -1,0 +1,65 @@
+:root {
+    /* COLOR */
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-gray-100: #F8F8F8;
+    --color-gray-200: #F4F4F4;
+    --color-gray-300: #EEE;
+    --color-gray-400: #DDD;
+    --color-gray-500: #C5C5C5;
+    --color-gray-600: #AAA;
+    --color-gray-700: #8E8E8E;
+    --color-gray-800: #666666;
+    --color-gray-900: #333333;
+    --color-primary: #F04C18;
+    --color-secondry: #D1D5D7;
+    --color-third: #FEDF6A;
+	--color-brand: #7b1f2e;
+
+
+    /* FONT */
+    --font-primary: 'SUITE', sans-serif;
+    --font-secondary: 'DelaGothicOne', sans-serif;
+
+    --letter-spacing: 0em;
+
+    --font-size-ko-01: 74rem;
+    --font-size-ko-02: 56rem;
+    --font-size-ko-03: 44rem;
+    --font-size-ko-04: 32rem;
+    --font-size-ko-05: 24rem;
+    --font-size-ko-06: 18rem;
+    --font-size-ko-07: 16rem;
+    --font-size-ko-08: 14rem;
+
+    --font-size-en-01: 96rem;
+    --font-size-en-02: 56rem;
+    --font-size-en-03: 48rem;
+    --font-size-en-04: 38rem;
+    --font-size-en-05: 24rem;
+    --font-size-en-06: 20rem;
+    --font-size-en-07: 16rem;
+    --font-size-en-08: 14rem;
+    --font-size-en-09: 12rem;
+    --font-size-en-10: 88rem;
+
+    --font-lineheight-ko-01: 92rem;
+    --font-lineheight-ko-02: 74rem;
+    --font-lineheight-ko-03: 62rem;
+    --font-lineheight-ko-04: 50rem;
+    --font-lineheight-ko-05: 36rem;
+    --font-lineheight-ko-06: 30rem;
+    --font-lineheight-ko-07: 28rem;
+    --font-lineheight-ko-08: 24rem;
+
+    --font-lineheight-en-01: 110rem;
+    --font-lineheight-en-02: 72rem;
+    --font-lineheight-en-03: 64rem;
+    --font-lineheight-en-04: 54rem;
+    --font-lineheight-en-05: 43rem;
+    --font-lineheight-en-06: 30rem;
+    --font-lineheight-en-07: 28rem;
+    --font-lineheight-en-08: 24rem;
+    --font-lineheight-en-09: 24rem;
+    --font-lineheight-en-10: 100rem;
+}
